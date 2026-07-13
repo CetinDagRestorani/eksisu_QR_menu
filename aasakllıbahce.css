@@ -1,0 +1,168 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #1a1a1a;
+    background-image: radial-gradient(circle, #2a2a2a, #111);
+    font-family: 'Georgia', serif;
+    color: #f1f1f1;
+}
+
+#flipbook-container {
+    width: 95vw;
+    height: 90vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.page {
+    background-color: #121212;
+    border: 1px solid #333;
+    overflow: hidden;
+}
+
+.page-content {
+    padding: 25px;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    position: relative; 
+}
+
+.page-content::-webkit-scrollbar { display: none; }
+.page-content { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* === KAPAK AYARLARI (GÜNCELLENDİ) === */
+
+.page-content.cover {
+    padding: 0 !important; /* Tüm kenar boşluklarını sıfırladık */
+}
+
+/* Kapak resimlerini tüm alana zorla yayan sihirli kod */
+.cover-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Resmi sündürmeden kırparak ekrana oturtur */
+    z-index: 1; /* Yazıların arkasında kalması için */
+}
+
+.swipe-hint { 
+    position: absolute; 
+    bottom: 20px; 
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 0.85em; 
+    font-weight: normal; 
+    color: rgba(255, 255, 255, 0.6); 
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.9); 
+    margin: 0; 
+    animation: pulse 3s infinite; 
+    z-index: 10; /* Resmin önünde kalır */
+}
+
+@keyframes pulse {
+    0% { opacity: 0.3; }
+    50% { opacity: 1; }
+    100% { opacity: 0.3; }
+}
+
+/* === BUTONLAR (GÜNCELLENDİ) === */
+
+.back-contact {
+    position: absolute;
+    bottom: 40px; /* Alttan yüksekliği */
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Butonları iki zıt köşeye iter */
+    padding: 0 40px; /* Sağ ve sol kenarlardan 40 piksel boşluk bırakır */
+    box-sizing: border-box; /* Boşluk hesaplamasını düzeltir */
+    z-index: 10;
+}
+
+.action-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 65px; /* Butonun tam yuvarlak olması için genişlik... */
+    height: 65px; /* ...ve yükseklik aynı olmalı */
+    border-radius: 50%; /* Tam yuvarlak yapar */
+    text-decoration: none;
+    font-size: 2em; /* İkon boyutunu büyüttük */
+    box-shadow: 0 6px 15px rgba(0,0,0,0.6); /* Daha şık ve derin bir gölge */
+    transition: transform 0.2s;
+}
+
+.action-btn:active {
+    transform: scale(0.90); /* Tıklanınca şık bir şekilde küçülme efekti */
+}
+
+.call-btn {
+    background-color: #b04306; /* Ara butonunun rengini önceki turuncudan daha koyu yaptık */
+}
+
+.wa-btn {
+    background-color: #25D366; /* WhatsApp yeşili */
+}
+
+/* === İÇ MENÜ AYARLARI === */
+
+.menu-category-title {
+    color: #e67e22;
+    border-bottom: 2px solid #e67e22;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.menu-item {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed rgba(255,255,255,0.1);
+    padding-bottom: 15px;
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.item-name { font-size: 1.1em; font-weight: bold; color: #ffffff; width: 75%; }
+.item-price { font-size: 1.2em; font-weight: bold; color: #e67e22; text-align: right; }
+.item-description { font-size: 0.85em; color: #a0a0a0; line-height: 1.4; }
+
+@media screen and (max-width: 768px) {
+    #flipbook-container {
+        width: 100vw !important; /* Tüm genişliği kapla */
+        height: 100vh !important; /* Tüm yüksekliği kapla */
+        top: 0;
+        left: 0;
+        transform: none; /* Mobilde ortalama hesaplamasına gerek yok, zaten tam ekran */
+    }
+    
+    .page {
+        border: none; /* Mobilde çirkin durmaması için dış kenarlığı kaldırırız */
+    }
+    
+    .page-content {
+        padding: 20px; /* İç boşluğu mobilde biraz kıstık ki yazılar sığsın */
+    }
+
+    .back-contact {
+        bottom: 30px; /* Mobilde butonları biraz daha aşağı alıyoruz */
+        padding: 0 25px; /* Butonların kenara olan mesafesi */
+    }
+}
