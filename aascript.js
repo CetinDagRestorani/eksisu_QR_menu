@@ -111,8 +111,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="back-contact">
                             <a href="tel:+904462314545" class="action-btn call-btn" title="Ara"><i class="fas fa-phone-alt"></i></a>
                             <a href="https://wa.me/905303235013" class="action-btn wa-btn" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                            <a href="https://instagram.com/saklibahceerzincan" class="action-btn insta-btn" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
-                            <a href="mailto:ornek@mail.com" class="action-btn mail-btn" title="Mail Gönder"><i class="fas fa-envelope"></i></a>
+                            <a href="https://www.instagram.com/eksisusaklibahce" class="action-btn insta-btn" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="mailto:cetindagrestorani@gmail.com" class="action-btn mail-btn" title="Mail Gönder"><i class="fas fa-envelope"></i></a>
                         </div>
                     </div>
                 </div>
