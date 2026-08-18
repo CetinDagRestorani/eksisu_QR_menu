@@ -368,3 +368,20 @@ body, html {
     .prev-modal, .next-modal { font-size: 40px; padding: 5px; }
     .close-modal { top: 10px; right: 20px; font-size: 45px; }
 }
+
+.page-number {
+    position: absolute;
+    bottom: 12px; /* Sayfanın en altından yüksekliği */
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.3); /* Çok göze batmayan, soluk ve şık bir ton */
+    font-family: 'Georgia', serif;
+    letter-spacing: 2px; /* Rakamlar arasına lüks bir nefes boşluğu verir */
+}
+
+/* Sayfa numarasının yemeklerin üzerine binmemesi için konteynıra alttan boşluk veriyoruz */
+.menu-items-container, .about-page, .gallery-page {
+    padding-bottom: 30px; 
+}
