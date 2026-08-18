@@ -76,9 +76,10 @@ document.addEventListener('DOMContentLoaded', function() {
             window.galleryImages = ['galeri1.jpg', 'galeri2.jpg', 'galeri3.jpg', 'galeri4.jpg', 'galeri5.jpg', 'galeri6.jpg'];
             
             let galleryGridHTML = window.galleryImages.map((img, index) => `
-                <a href="javascript:void(0);" onclick="openGallery(${index})" style="display:block; text-decoration:none;">
-                    <img src="${img}" class="gallery-thumb" alt="Galeri Görseli">
-                </a>
+                <img src="${img}" class="gallery-thumb" alt="Galeri Görseli"
+                     ontouchstart="event.stopPropagation();" 
+                     onmousedown="event.stopPropagation();"
+                     onclick="openGallery(${index})">
             `).join('');
 
             const galleryPageHTML = `
