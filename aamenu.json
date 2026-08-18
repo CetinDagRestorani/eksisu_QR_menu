@@ -1,0 +1,131 @@
+[
+    {
+        "category": "Kahvaltılar",
+        "items": [
+            { "name": "Serpme Kahvaltı (Kişi)", "description": "Kişi başı porsiyonlar artar. En az 2 kişilik sipariş verilebilir.", "price": "450₺", "image": "" },
+            { "name": "Kahvaltı Tabağı", "description": "Tek kişilik kahvaltılar için tercih edilen seçenektir.", "price": "450₺", "image": "" },
+            { "name": "Melemen", "description": "", "price": "150₺", "image": "" },
+            { "name": "Kuymak", "description": "", "price": "250₺", "image": "" },
+            { "name": "Sahanda Yumurta", "description": "", "price": "100₺", "image": "" },
+            { "name": "Kaşarlı Yumurta", "description": "", "price": "35₺", "image": "" },
+            { "name": "Haşlanmış Yumurta", "description": "", "price": "20₺", "image": "" },
+            { "name": "Sade Pişi", "description": "", "price": "50₺", "image": "" },
+            { "name": "Kaşarlı Pişi", "description": "", "price": "70₺", "image": "" },
+            { "name": "Bal", "description": "", "price": "50₺", "image": "" },
+            { "name": "Peynir Tabağı", "description": "", "price": "80₺", "image": "" },
+            { "name": "Sucuk Tabağı", "description": "", "price": "150₺", "image": "" },
+            { "name": "Domates Salatalık Tabağı", "description": "", "price": "50₺", "image": "" },
+            { "name": "Patates Cipsi", "description": "", "price": "150₺", "image": "" }
+        ]
+    },
+    {
+        "category": "Izgaralar",
+        "items": [
+            { "name": "Karışık Izgara", "description": "", "price": "700₺", "image": "" },
+            { "name": "Bonfile", "description": "", "price": "800₺", "image": "" },
+            { "name": "Antrikot", "description": "", "price": "800₺", "image": "" },
+            { "name": "Kuzu Külbastı", "description": "", "price": "800₺", "image": "" },
+            { "name": "Kuzu Pirzola", "description": "", "price": "800₺", "image": "" },
+            { "name": "Köfte", "description": "", "price": "500₺", "image": "" },
+            { "name": "Tavuk", "description": "", "price": "500₺", "image": "" },
+            { "name": "Kanat", "description": "", "price": "550₺", "image": "" },
+            { "name": "Sucuk Izgara", "description": "", "price": "500₺", "image": "" },
+            { "name": "Köfte - Et", "description": "", "price": "750₺", "image": "" },
+            { "name": "Tavuk - Et", "description": "", "price": "750₺", "image": "" },
+            { "name": "Tavuk - Köfte", "description": "", "price": "600₺", "image": "" }
+        ]
+    },
+    {
+        "category": "Çocuk & Az Porsiyonlar",
+        "items": [
+            { "name": "Çocuk Menü", "description": "", "price": "400₺", "image": "" },
+            { "name": "Tavuklu Çocuk", "description": "", "price": "400₺", "image": "" },
+            { "name": "Az Karışık", "description": "", "price": "600₺", "image": "" },
+            { "name": "Az Et", "description": "", "price": "450₺", "image": "" },
+            { "name": "Az Köfte", "description": "", "price": "400₺", "image": "" },
+            { "name": "Az Tavuk", "description": "", "price": "400₺", "image": "" },
+            { "name": "Az Kanat", "description": "", "price": "500₺", "image": "" }
+        ]
+    },
+    {
+        "category": "Balıklar & Pideler",
+        "items": [
+            { "name": "Alabalık", "description": "", "price": "500₺", "image": "" },
+            { "name": "Güveçte Alabalık", "description": "", "price": "650₺", "image": "" },
+            { "name": "Somon Şiş", "description": "", "price": "400₺", "image": "" },
+            { "name": "Alabalık Köfte Karışık", "description": "", "price": "650₺", "image": "" },
+            { "name": "Alabalık Et Karışık", "description": "", "price": "700₺", "image": "" },
+            { "name": "Somon Köfte Karışık", "description": "", "price": "400₺", "image": "" },
+            { "name": "Somon Et Karışık", "description": "", "price": "450₺", "image": "" },
+            { "name": "Saklı Pide", "description": "", "price": "350₺", "image": "" }
+        ]
+    },
+    {
+        "category": "Çorbalar & Mezeler",
+        "items": [
+            { "name": "Çorba", "description": "", "price": "150₺", "image": "" },
+            { "name": "Az Çorba", "description": "", "price": "100₺", "image": "" },
+            { "name": "Kaşarlı Mantar", "description": "", "price": "350₺", "image": "" },
+            { "name": "Barbunya Pilaki", "description": "", "price": "150₺", "image": "" },
+            { "name": "Tulum Peyniri Tereyağı", "description": "", "price": "100₺", "image": "" },
+            { "name": "Cacık", "description": "", "price": "100₺", "image": "" },
+            { "name": "Çoban Salata Büyük", "description": "", "price": "150₺", "image": "" },
+            { "name": "Çoban Salata Küçük", "description": "", "price": "80₺", "image": "" },
+            { "name": "Izgara Domates Biber", "description": "", "price": "150₺", "image": "" },
+            { "name": "Acılı Ezme", "description": "", "price": "50₺", "image": "" },
+            { "name": "Çiğ Köfte", "description": "", "price": "50₺", "image": "" },
+            { "name": "Yoğurt", "description": "", "price": "50₺", "image": "" },
+            { "name": "Somaklı Soğan Salatası", "description": "", "price": "İkram", "image": "" }
+        ]
+    },
+    {
+        "category": "Tatlılar",
+        "items": [
+            { "name": "Antep Katmeri", "description": "", "price": "300₺", "image": "" },
+            { "name": "Hamsiköy Sütlacı", "description": "", "price": "200₺", "image": "" },
+            { "name": "Erzincan Kesme Kadayıfı", "description": "", "price": "200₺", "image": "" },
+            { "name": "Kesme Maraş Dondurması", "description": "", "price": "150₺", "image": "" }
+        ]
+    },
+    {
+        "category": "Soğuk İçecekler",
+        "items": [
+            { "name": "Kola", "description": "", "price": "90₺", "image": "" },
+            { "name": "Fanta", "description": "", "price": "90₺", "image": "" },
+            { "name": "Ice Tea", "description": "", "price": "90₺", "image": "" },
+            { "name": "Meyve Suyu", "description": "", "price": "90₺", "image": "" },
+            { "name": "Gazoz", "description": "", "price": "90₺", "image": "" },
+            { "name": "Şalgam Suyu", "description": "", "price": "90₺", "image": "" },
+            { "name": "Ayran", "description": "", "price": "60₺", "image": "" },
+            { "name": "Şişe Bakraç Ayran", "description": "", "price": "60₺", "image": "" },
+            { "name": "Soda", "description": "", "price": "40₺", "image": "" },
+            { "name": "Su", "description": "", "price": "30₺", "image": "" }
+        ]
+    },
+    {
+        "category": "Sıcak İçecekler",
+        "items": [
+            { "name": "Çay", "description": "", "price": "50₺", "image": "" },
+            { "name": "Termos Çay", "description": "", "price": "400₺", "image": "" },
+            { "name": "Küçük Demlik", "description": "", "price": "400₺", "image": "" },
+            { "name": "Orta Demlik", "description": "", "price": "500₺", "image": "" },
+            { "name": "Büyük Demlik", "description": "", "price": "600₺", "image": "" },
+            { "name": "Küçük Semaver ", "description": "", "price": "600₺", "image": "" },
+            { "name": "Orta Semaver ", "description": "", "price": "700₺", "image": "" },
+            { "name": "Büyük Semaver ", "description": "", "price": "800₺", "image": "" },
+            { "name": "Türk Kahvesi ", "description": "", "price": "100₺", "image": "" },
+            { "name": "Menengiç Kahvesi (250gr Paket)", "description": "", "price": "200₺", "image": "" },
+            { "name": "Dibek Kahvesi (250gr Paket)", "description": "", "price": "300₺", "image": "" },
+            { "name": "Dibek Kahvesi (500gr Paket)", "description": "", "price": "500₺", "image": "" },
+            { "name": "Dibek Kahvesi (1000gr Paket)", "description": "", "price": "700₺", "image": "" }
+        ]
+    },
+    {
+        "category": "Ekstralar",
+        "items": [
+            { "name": "Canlı Müzik", "description": "", "price": "150₺", "image": "" },
+            { "name": "Servis Ücreti", "description": "", "price": "120₺", "image": "" },
+            { "name": "Ergan Kolonya", "description": "", "price": "250₺", "image": "" }
+        ]
+    }
+]
