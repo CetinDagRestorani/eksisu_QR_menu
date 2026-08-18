@@ -9,6 +9,9 @@ document.addEventListener('DOMContentLoaded', function() {
             let pagesHTML = '';
             let generatedPageCount = 0; 
             const ITEMS_PER_PAGE = 6; 
+            
+            // YENİ EKLENEN: Sayfa numaralarını tutacak sayacımız (1'den başlar)
+            let pageNum = 1; 
 
             // 1. Tarihçe ve Hakkımızda Sayfası
             const aboutPageHTML = `
@@ -27,6 +30,9 @@ document.addEventListener('DOMContentLoaded', function() {
                         </div>
                         <h2 class="about-history-title">SAKLIBAHÇE TARİHÇE</h2>
                         <p class="about-history-text">Saklıbahçe restoran 2008 yılında Erzincan Belediyesinden işletme ruhsatı ile projelendirilmiş ve 2009 da işletmeye açılmıştır. Aynı yıl talihsiz bir yangın sonucu büyük ölçüde kullanılamaz hale gelmiştir ve işletmecileri tarafından 2010 yılında yeniden onarılarak hizmete açılmıştır. 2014 yılında da ahşap bir yapı olarak dönüştürülmüş ve bugün ki halini almıştır. Saklıbahçe bir çok badire atlatmasına rağmen ayakta kalmayı başaran Erzincan'ın en gözde restoranlarından biridir.</p>
+                        
+                        <!-- Sayfa Numarası -->
+                        <div class="page-number">- ${pageNum++} -</div>
                     </div>
                 </div>
             `;
@@ -57,15 +63,17 @@ document.addEventListener('DOMContentLoaded', function() {
                                         </div>
                                     `).join('')}
                                 </div>
+                                
+                                <!-- Sayfa Numarası -->
+                                <div class="page-number">- ${pageNum++} -</div>
                             </div>
                         </div>
                     `;
                 }
             });
 
-            // 3. YENİ EKLENEN: GALERİ SAYFASI VE FONKSİYONLARI
-            // Kendi mekan resimlerini klasöre atıp isimlerini buraya yaz kanka (istediğin kadar ekleyebilirsin)
-            window.galleryImages = ['galeri1.jpg', 'galeri2.jpg', 'galeri3.jpg', 'galeri4.jpg', 'galeri5.jpg', 'galeri6.jpg', 'galeri7.jpg', 'galeri8.jpg'];
+            // 3. GALERİ SAYFASI 
+            window.galleryImages = ['galeri1.jpg', 'galeri2.jpg', 'galeri3.jpg', 'galeri4.jpg', 'galeri5.jpg', 'galeri6.jpg'];
             
             let galleryGridHTML = window.galleryImages.map((img, index) => `
                 <a href="javascript:void(0);" onclick="openGallery(${index})" style="display:block; text-decoration:none;">
@@ -80,12 +88,15 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="gallery-grid">
                             ${galleryGridHTML}
                         </div>
+                        
+                        <!-- Sayfa Numarası -->
+                        <div class="page-number">- ${pageNum++} -</div>
                     </div>
                 </div>
             `;
             pagesHTML += galleryPageHTML;
 
-            // Arka planda tam ekran çalışacak olan Galeri Modalı (Lightbox) - Görünmez olarak eklenir
+            // (Görünmez Galeri Modalı)
             const lightboxHTML = `
                 <div id="gallery-modal" class="modal">
                     <span class="close-modal" onclick="closeGallery()">&times;</span>
@@ -96,10 +107,11 @@ document.addEventListener('DOMContentLoaded', function() {
             `;
             document.body.insertAdjacentHTML('beforeend', lightboxHTML);
 
-            // 4. Matematik Güncellemesi (Kapak + Hakkımızda + Menüler + Galeri + Arka Kapak)
+            // 4. Matematik Güncellemesi 
             let totalPages = 1 + 1 + generatedPageCount + 1 + 1; 
             
             if (totalPages % 2 !== 0) {
+                // Boş sayfaya numara koymuyoruz, temiz kalıyor
                 pagesHTML += `<div class="page"><div class="page-content"></div></div>`;
             }
 
