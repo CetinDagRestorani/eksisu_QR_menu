@@ -65,10 +65,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // 3. YENİ EKLENEN: GALERİ SAYFASI VE FONKSİYONLARI
             // Kendi mekan resimlerini klasöre atıp isimlerini buraya yaz kanka (istediğin kadar ekleyebilirsin)
-            window.galleryImages = ['galeri1.jpg', 'galeri2.jpg', 'galeri3.jpg', 'galeri4.jpg', 'galeri5.jpg', 'galeri6.jpg'];
+            window.galleryImages = ['galeri1.jpg', 'galeri2.jpg', 'galeri3.jpg', 'galeri4.jpg', 'galeri5.jpg', 'galeri6.jpg', 'galeri7.jpg', 'galeri8.jpg'];
             
             let galleryGridHTML = window.galleryImages.map((img, index) => `
-                <img src="${img}" class="gallery-thumb" onclick="openGallery(${index})" alt="Galeri Görseli">
+                <a href="javascript:void(0);" onclick="openGallery(${index})" style="display:block; text-decoration:none;">
+                    <img src="${img}" class="gallery-thumb" alt="Galeri Görseli">
+                </a>
             `).join('');
 
             const galleryPageHTML = `
