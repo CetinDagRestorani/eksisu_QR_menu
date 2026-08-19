@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saklıbahçe QR Menü</title>
+    <!-- Sekme İkonu (Favicon) Eklendi -->
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="aasakllibahce.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="item-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-card">
+            <!-- Sağ Üstteki Kapat (X) İkonu -->
+            <button class="modal-close-icon"><i class="fas fa-times"></i></button>
+            
+            <!-- Yuvarlak Resim -->
+            <div class="modal-image-container">
+                <img id="modal-item-image" src="" alt="" class="modal-image">
+            </div>
+            
+            <!-- Detaylar -->
+            <div class="modal-info">
+                <h2 id="modal-item-title" class="modal-title"></h2>
+                <span id="modal-item-category" class="modal-category"></span>
+                <div class="modal-price-badge-container">
+                    <span id="modal-item-price" class="modal-price-badge"></span>
+                </div>
+                <p id="modal-item-description" class="modal-description"></p>
+            </div>
+            
+            <!-- Ayırıcı Çizgi -->
+            <div class="modal-divider"></div>
+            
+            <!-- Büyük Kapat Butonu -->
+            <button id="modal-close-btn" class="modal-close-button">Kapat</button>
+        </div>
+    </div>
+
+    <!-- New Lightbox Modal Structure (Galeri Pop-up) -->
+    <div id="lightbox-modal" class="lightbox-overlay" style="display: none;">
+        <!-- Sağ Üstteki Kapat (X) İkonu -->
+        <button class="lightbox-close-icon"><i class="fas fa-times"></i></button>
+        <!-- Tam Ekran Resim -->
+        <img id="lightbox-image" src="" alt="Tam Ekran Restoran Görseli" class="lightbox-image">
+    </div>
+
+    <!-- 1. AÇILIŞ EKRANI (BLUR VE YÜKLEME) -->
+    <div id="splash-screen">
+        <div class="loader"></div>
+        <h2>Saklı Menü Yükleniyor...</h2>
+        <h3>Lütfen bekleyiniz</h3>
+    </div>
+
+    <!-- 2. ANA İÇERİK (Açılış bitince burası görünecek) -->
+    <main id="main-content" style="display: none;">
+        
+        <!-- YENİ EKLENEN: AKILLI ÜST BAR (Kaymaya Duyarlı) -->
+        <div id="smart-header" class="smart-header">
+            <!-- 3 Çizgili Menü Butonu -->
+            <button id="hamburger-btn" class="header-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <!-- Tema Butonu (Buraya taşındı) -->
+            <button id="theme-toggle" class="header-btn">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+
+        <!-- YENİ EKLENEN: SAĞDAN AÇILAN MENÜ (Drawer) -->
+        <div id="side-drawer" class="side-drawer">
+            <button id="close-drawer" class="close-btn"><i class="fas fa-times"></i></button>
+            <div class="drawer-content">
+                <img src="logo.png" alt="Logo" class="drawer-logo">
+                <ul class="drawer-links">
+                    <li><a href="#" class="drawer-link"><i class="fas fa-home"></i> Ana Sayfa</a></li>
+                    <li><a href="#" class="drawer-link"><i class="fas fa-info-circle"></i> Hakkımızda</a></li>
+                    <li><a href="tel:+904462314545" class="drawer-link"><i class="fas fa-phone-alt"></i> Rezervasyon</a></li>
+                    <li><a href="https://www.instagram.com/eksisusaklibahce" target="_blank" class="drawer-link"><i class="fab fa-instagram"></i> Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- TEPE ALANI (HERO & LOGO) -->
+        <header class="hero-section">
+            
+            <div class="hero-content">
+                <!-- Ana Logo frontlogo.jpg olarak güncellendi -->
+                <img src="frontlogo.jpg" alt="Saklıbahçe Logo" class="brand-logo">
+                <h1 class="brand-title">Saklı Lezzetlere Ulaşmak için Göz Gezdirin</h1>
+            </div>
+        </header>
+
+        <!-- 3. YATAY KAYDIRMALI KATEGORİ MENÜSÜ -->
+        <nav class="category-nav">
+            <ul id="category-list">
+                <!-- Burası JavaScript (aascript.js) ile JSON'dan otomatik dolacak -->
+                <li class="active" data-category="Tümü">Tümü</li>
+            </ul>
+        </nav>
+
+        <!-- 4. MENÜ KARTLARI -->
+        <section id="menu-container" class="menu-container">
+            <!-- Yemek kartları buraya dolacak -->
+        </section>
+
+    </main>
+
+    <script src="aascript.js"></script>
+</body>
+</html>
