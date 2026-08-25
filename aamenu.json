@@ -22,6 +22,7 @@
         "category": "Izgaralar",
         "items": [
             { "name": "Karışık Izgara", "description": "", "price": "700₺", "image": "" },
+            { "name": "Sucuklu Karışık Izgara", "description": "", "price": "700₺", "image": "" },
             { "name": "Dana Bonfile", "description": "", "price": "800₺", "image": "" },
             { "name": "Dana Antrikot", "description": "", "price": "800₺", "image": "" },
             { "name": "Kuzu Külbastı", "description": "", "price": "800₺", "image": "" },
