@@ -2,18 +2,18 @@
     {
         "category": "Kahvaltılar",
         "items": [
-            { "name": "Serpme Kahvaltı", "description": "Fiyatlandırma ve porsiyonlar Kişi sayısına bağlı olarak artar. En az 2 kişilik sipariş verilebilir.", "price": "450₺", "image": "" },
-            { "name": "Kahvaltı Tabağı", "description": "Tek kişilik kahvaltılar için tercih edilen seçenektir.", "price": "450₺", "image": "" },
-            { "name": "Melemen", "description": "", "price": "150₺", "image": "" },
-            { "name": "Kuymak", "description": "", "price": "250₺", "image": "" },
+            { "name": "Serpme Kahvaltı", "description": "Fiyatlandırma ve porsiyonlar Kişi sayısına bağlı olarak artar. En az 2 kişilik sipariş verilebilir. İçeriğinde sıcak olarak melemen, sahanda yumurta, patates kızartması, sade pişi ; Soğuk olarak ise Söğüş salatalık ve domates , 3 çeşit peynir, 2 çeşit zeytin , 3 adet tatlı kahvaltılık ve yağ bulunmaktadır ", "price": "450₺", "image": "kahvalti.jpeg" },
+            { "name": "Kahvaltı Tabağı", "description": "Tek kişilik kahvaltılar için tercih edilen seçenektir. Melemen haricinde içeriği serpme kahvaltı ile aynıdır.", "price": "450₺", "image": "" },
+            { "name": "Melemen", "description": "Özenle hazırlanmış yumurtalı ve soğansız melemen.", "price": "150₺", "image": "" },
+            { "name": "Kuymak", "description": "Karadeniz kültüründen esinlenilmiş el lezzetli kuymak. ", "price": "250₺", "image": "kuymak.jpeg" },
             { "name": "Sahanda Yumurta", "description": "", "price": "---₺", "image": "" },
             { "name": "Kaşarlı Yumurta", "description": "", "price": "---₺", "image": "" },
             { "name": "Haşlanmış Yumurta", "description": "", "price": "---₺", "image": "" },
-            { "name": "Sade Pişi", "description": "", "price": "50₺", "image": "" },
-            { "name": "Kaşarlı Pişi", "description": "", "price": "70₺", "image": "" },
+            { "name": "Sade Pişi", "description": "Tatlı kahvaltı içerikleriyle afiyetle yiyeceğiniz sade pişi", "price": "50₺", "image": "" },
+            { "name": "Kaşarlı Pişi", "description": "Kendine has lezzeti olan kaşarlı pişi", "price": "70₺", "image": "" },
             { "name": "Bal", "description": "", "price": "50₺", "image": "" },
             { "name": "Peynir Tabağı", "description": "", "price": "80₺", "image": "" },
-            { "name": "Sucuk Tabağı", "description": "", "price": "150₺", "image": "" },
+            { "name": "Sucuk Tabağı", "description": "Tavada hafif yağda dağ sucuğundan hazırlanmış sucuk tabağı dilimlenmiş şekilde tavada servis edilir", "price": "150₺", "image": "" },
             { "name": "Domates Salatalık Tabağı", "description": "", "price": "50₺", "image": "" },
             { "name": "Patates Cipsi", "description": "", "price": "150₺", "image": "" }
         ]
@@ -21,16 +21,16 @@
     {
         "category": "Izgaralar",
         "items": [
-            { "name": "Karışık Izgara", "description": "", "price": "700₺", "image": "" },
-            { "name": "Sucuklu Karışık Izgara", "description": "", "price": "700₺", "image": "" },
-            { "name": "Dana Bonfile", "description": "", "price": "800₺", "image": "" },
-            { "name": "Dana Antrikot", "description": "", "price": "800₺", "image": "" },
-            { "name": "Kuzu Külbastı", "description": "", "price": "800₺", "image": "" },
-            { "name": "Kuzu Pirzola", "description": "", "price": "800₺", "image": "" },
-            { "name": "Erzincan Meşhur Köftesi", "description": "", "price": "500₺", "image": "" },
-            { "name": "Talex Tavuk", "description": "", "price": "500₺", "image": "" },
-            { "name": "Tavuk Kanat", "description": "", "price": "550₺", "image": "" },
-            { "name": "Sucuk Izgara", "description": "", "price": "500₺", "image": "" },
+            { "name": "Karışık Izgara", "description": "Menü içeriği : 2 parça tavuk talex,2 parça meşhur köfte ve 1 parça et ile servis edilir. Ürün en az 500 gram olarak sunulur. İlk salata , ezme ve yoğurt ikramdır.", "price": "700₺", "image": "karisik.jpeg" },
+            { "name": "Sucuklu Karışık Izgara", "description": "Menü içeriği : 1 parça tavuk talex,2 parça dağ sucuğu, 2 parça meşhur köfte ve 1 parça et ile servis edilir. İlk salata , ezme ve yoğurt ikramdır.", "price": "700₺", "image": "sucuklu-karisik.jpeg" },
+            { "name": "Dana Bonfile Izgara", "description": "Menü içeriği: Saklıbahçenin lokumudur. 4 parça şeklinde servis edilir. Yaklaşık 250 gramdır. İlk salata, ezme ve yoğurt ikramdır.", "price": "800₺", "image": "bonfile.jpeg" },
+            { "name": "Dana Antrikot Izgara", "description": "Menü içeriği: Eti sevenler için güzel bir tercihtir. 4 parça şeklinde servis edilir. Yaklaşık 250 gramdır. İlk salata, ezme ve yoğurt ikramdır.", "price": "800₺", "image": "antrikot.jpeg" },
+            { "name": "Kuzu Külbastı Izgara", "description": "Menü içeriği: 4 parça şeklinde servis edilir. Marine edilmiş dövülmüş kuzu etidir. İlk salata, ezme ve yoğurt ikramdır.", "price": "800₺", "image": "" },
+            { "name": "Kuzu Pirzola Izgara", "description": "Menü içeriği: 4 parça şeklinde servis edilir. Yaklaşık 200 gramdır. İlk salata, ezme ve yoğurt ikramdır.", "price": "800₺", "image": "" },
+            { "name": "Meşhur Saklıbahçe Köftesi", "description": "Menü içeriği : Saklıbahçenin en çok satan ürünüdür.El emeği göz nuru,gramajı yüksek , lezzetli efsanedir.5 parça olarak servis edilir.Ortalama 250 gram olarak sunulur. İlk salata , ezme ve yoğurt ikramdır.", "price": "500₺", "image": "kofte.jpeg" },
+            { "name": "Erzincan Meşhur Tavuğu Talex Izgara", "description": "Menü içeriği: 3 parça talex ile servis edilir. Saklıbahçenin kendine özel sosu ile marine edilmiştir. Yaklaşık 450 gram olarak sunulur. İlk salata, ezme ve yoğurt ikramdır.", "price": "500₺", "image": "tavuk.jpeg" },
+            { "name": "Saklıbahçe Kanat Izgara", "description": "Menü içeriği: Yaprak kanat kullanılmaktadır. Sosu kendine hastır. 8 parça olarak servis edilir. Yaklaşık 300 gramdır. Pişme süresi 40 dakikadır. İlk salata, ezme ve yoğurt ikramdır.", "price": "550₺", "image": "" },
+            { "name": "Sucuk Izgara", "description": "", "price": "500₺", "image": "sucuk.jpeg" },
             { "name": "Köfte - Et Karışık Izgara", "description": "", "price": "750₺", "image": "" },
             { "name": "Tavuk - Et Karışık Izgara", "description": "", "price": "750₺", "image": "" },
             { "name": "Tavuk - Köfte Karışık Izgara", "description": "", "price": "600₺", "image": "" }
@@ -39,27 +39,28 @@
     {
         "category": "Çocuk Menüler",
         "items": [
-            { "name": "Çocuk Menü", "description": "", "price": "400₺", "image": "" },
-            { "name": "Tavuklu Çocuk", "description": "", "price": "400₺", "image": "" }
+            { "name": "Çocuk Menü", "description": "Menü içeriği: 3 parça köfte yanında patates cipsi ile servis edilir.", "price": "400₺", "image": "" },
+            { "name": "Tavuklu Çocuk", "description": "Menü içeriği: 2 parça tavuk yanında patates cipsi ile servis edilir.", "price": "400₺", "image": "" }
         ]
     },
     {
         "category": "Balıklar & Pideler",
         "items": [
-            { "name": "Alabalık", "description": "", "price": "500₺", "image": "" },
+            { "name": "Alabalık", "description": "Menü içeriği: Fileto edilmiş, kılçığı alınmış şekilde tereyağında pişirilir. Yaklaşık 250 gramdır. İlk salata, ezme ve yoğurt ikramdır.", "price": "500₺", "image": "alabalik.jpeg" },
             { "name": "Güveçte Alabalık", "description": "", "price": "650₺", "image": "" },
-            { "name": "Somon Şiş", "description": "", "price": "400₺", "image": "" },
+            { "name": "Somon Şiş", "description": "", "price": "400₺", "image": "somon.jpeg" },
+            { "name": "Hamsi", "description": "", "price": "400₺", "image": "hamsi.jpeg" },
+            { "name": "Barbun", "description": "", "price": "400₺", "image": "barbun.jpeg" },
             { "name": "Saklı Pide", "description": "", "price": "350₺", "image": "" }
         ]
     },
     {
         "category": "Çorbalar & Mezeler",
         "items": [
-            { "name": "Çorba", "description": "", "price": "150₺", "image": "" },
-            { "name": "Az Çorba", "description": "", "price": "100₺", "image": "" },
-            { "name": "Kaşarlı Mantar", "description": "", "price": "350₺", "image": "" },
+            { "name": "Çorba", "description": "Taze olarak günlük şef eli değerek hazırlanır. Günün çorbası garsonlara sorularak öğrenilebilir.", "price": "150₺", "image": "" },
+            { "name": "Kaşarlı Mantar", "description": "Dağ Mantarı temizlenerek üzerinde kaşar peyniri ile fırında pişirilip servis edilir.", "price": "350₺", "image": "" },
             { "name": "Barbunya Pilaki", "description": "", "price": "150₺", "image": "" },
-            { "name": "Tulum Peyniri Tereyağı", "description": "", "price": "100₺", "image": "" },
+            { "name": "Tulum Peyniri Tereyağı", "description": "Erzincanımızın meşhur tulum peyniri tabakta servis edilir.", "price": "100₺", "image": "" },
             { "name": "Cacık", "description": "", "price": "150₺", "image": "" },
             { "name": "Çoban Salata Büyük", "description": "", "price": "150₺", "image": "" },
             { "name": "Çoban Salata Küçük", "description": "", "price": "80₺", "image": "" },
@@ -73,11 +74,12 @@
     {
         "category": "Tatlılar",
         "items": [
-            { "name": "Antep Katmeri", "description": "", "price": "300₺", "image": "" },
-            { "name": "Hamsiköy Sütlacı", "description": "", "price": "200₺", "image": "" },
-            { "name": "Erzincan Kesme Kadayıfı", "description": "", "price": "200₺", "image": "" },
+            { "name": "Antep Katmeri", "description": "Antepten özel olarak getirilmiştir. Sıcak servis edilir. Dondurma ile yenmesi tavsiye edilir.", "price": "300₺", "image": "katmer.jpeg" },
+            { "name": "Hamsiköy Sütlacı", "description": "Fındıkla servis edilir. Katkı maddesi bulunmamaktadır. İçerisinde sadece tuz, süt ve şeker vardır. Tavsiye edilir.", "price": "200₺", "image": "" },
+            { "name": "Erzincan Kesme Kadayıfı", "description": "Meşhur Erzincan kesme kadayıfı üzerinde fındık veya cevizle servis edilir. Dondurma ile yenilmesi şefin tavsiyesidir.", "price": "200₺", "image": "" },
             { "name": "Kabak Tatlısı", "description": "", "price": "200₺", "image": "" },
-            { "name": "Kesme Maraş Dondurması", "description": "", "price": "150₺", "image": "" }
+            { "name": "Meşhur Fındıklı Ev Baklavası", "description": "3 dilim şeklinde servis edilir. Katkı maddesi kullanılmayıp, anne eli değmiştir. Günlük, taze olarak satılmaktadır.", "price": "200₺", "image": "" },
+            { "name": "Kesme Maraş Dondurması", "description": "Orijinal kesme maraş dondurmasıdır. 2 parça şeklinde servis edilir.", "price": "150₺", "image": "" }
         ]
     },
     {
