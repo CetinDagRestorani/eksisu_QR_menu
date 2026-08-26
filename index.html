@@ -12,6 +12,44 @@
 </head>
 <body>
 
+    <!-- HAKKIMIZDA MODALI -->
+    <div id="about-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-card about-card">
+            <!-- Kapat (X) İkonu -->
+            <button class="modal-close-icon about-close-icon"><i class="fas fa-times"></i></button>
+
+            <!-- Slogan ve Logo -->
+            <div class="about-header">
+                <h3 class="about-slogan">"Su, Yeşil ve Ahşabın<br>buluşma noktası"</h3>
+                <img src="logo.png" alt="Saklıbahçe Logo" class="about-logo">
+            </div>
+
+            <!-- Kişi Tanıtımları (Mobil için alt alta, PC için yan yana) -->
+            <div class="about-bios">
+                <div class="bio-col">
+                    <h4 class="bio-title">USTAMIZ<br><span>ÇETİN BOĞA</span></h4>
+                    <p class="bio-text">Erzincan'a restoran sektöründe çağ atlatmış olan Çetin Boğa 20.01.1966 doğumludur. Kendisi 10 yaşından itibaren sektörde yer almış ve kendini kısa sürede sektörde kanıtlamıştır. Şu an da Erzincan'ın en gözde restoranı olan Saklıbahçe Restoranı işletmektedir.</p>
+                </div>
+                <div class="bio-col">
+                    <h4 class="bio-title">İŞLETMECİ<br><span>RUKİYE BOĞA</span></h4>
+                    <p class="bio-text">Yakın çevresi tarafından el lezzeti, hamaratlığı ve titizliği ile bilinen Rukiye Boğa 01.01.1971 doğumlu ve üç çocuk annesidir. Kendisi Saklıbahçe Restoranın gizli yüzüdür işletme menüsünün en başarılı ürünlerinden olan meşhur Saklıbahçe Köftenin de mimarıdır.</p>
+                </div>
+            </div>
+
+            <!-- Tarihçe -->
+            <div class="about-history">
+                <h4 class="history-title">SAKLIBAHÇE TARİHÇE</h4>
+                <p class="history-text">Saklıbahçe Restoran 2008 yılında Erzincan Belediyesinden işletme ruhsatı ile projelendirilmiş ve 2009'da işletmeye açılmıştır. Aynı yıl talihsiz bir yangın sonucu büyük ölçüde kullanılamaz hale gelmiş ve işletmecileri tarafından 2010 yılında yeniden onarılarak hizmete açılmıştır. 2014 yılında ahşap bir yapı olarak dönüştürülmüş ve bugünkü halini almıştır. Saklıbahçe bir çok badire atlatmasına rağmen ayakta kalmayı başaran Erzincan'ın en gözde restoranlarından biridir.</p>
+            </div>
+
+            <!-- İletişim / Rezervasyon -->
+            <div class="about-contact">
+                <h4 class="contact-title">REZERVASYON NO</h4>
+                <a href="tel:+905303235013">0 530 923 50 13</a>
+            </div>
+        </div>
+    </div>
+    
     <div id="item-modal" class="modal-overlay" style="display: none;">
         <div class="modal-card">
             <!-- Sağ Üstteki Kapat (X) İkonu -->
@@ -77,7 +115,7 @@
                 <img src="logo.png" alt="Logo" class="drawer-logo">
                 <ul class="drawer-links">
                     <li><a href="#" class="drawer-link"><i class="fas fa-home"></i> Ana Sayfa</a></li>
-                    <li><a href="#" class="drawer-link"><i class="fas fa-info-circle"></i> Hakkımızda</a></li>
+                    <li><a href="#" id="btn-hakkimizda" class="drawer-link"><i class="fas fa-info-circle"></i> Hakkımızda</a></li>
                     <li><a href="tel:+905309235013" class="drawer-link"><i class="fas fa-phone-alt"></i> Rezervasyon</a></li>
                     <li><a href="https://www.instagram.com/eksisusaklibahce" target="_blank" class="drawer-link"><i class="fab fa-instagram"></i> Instagram</a></li>
                 </ul>
