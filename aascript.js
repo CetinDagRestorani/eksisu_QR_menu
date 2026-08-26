@@ -346,4 +346,43 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // ==========================================
+    // YENİ EKLENEN: HAKKIMIZDA MODALI İŞLEMLERİ
+    // ==========================================
+    const btnHakkimizda = document.getElementById('btn-hakkimizda');
+    const aboutModal = document.getElementById('about-modal');
+
+    if (btnHakkimizda && aboutModal) {
+        // Butona tıklanınca menüyü kapatıp modalı aç
+        btnHakkimizda.addEventListener('click', (e) => {
+            e.preventDefault(); 
+            const drawer = document.getElementById('side-drawer');
+            if (drawer) drawer.classList.remove('open'); 
+            aboutModal.style.display = 'flex';
+            setTimeout(() => aboutModal.classList.add('show'), 10);
+        });
+
+        // Kapatma Fonksiyonu
+        function closeAboutModal() {
+            aboutModal.classList.remove('show');
+            setTimeout(() => aboutModal.style.display = 'none', 400);
+        }
+
+        // Kapat İkonuna Tıklama
+        const aboutCloseIcon = aboutModal.querySelector('.about-close-icon');
+        if (aboutCloseIcon) aboutCloseIcon.addEventListener('click', closeAboutModal);
+        
+        // Dışarı Tıklayarak Kapatma
+        aboutModal.addEventListener('click', (e) => { 
+            if (e.target === aboutModal) closeAboutModal(); 
+        });
+
+        // Esc Tuşu ile Kapatma
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && aboutModal.classList.contains('show')) {
+                closeAboutModal();
+            }
+        });
+    }
+    
 }); // <-- Sihirli kapanış parantezleri (aascript.js'in son satırı)
