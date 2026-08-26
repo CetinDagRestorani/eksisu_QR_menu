@@ -604,3 +604,93 @@ h1, h2, h3, .menu-card-title, .brand-title {
 .lightbox-close-icon:hover {
     background: rgba(255, 255, 255, 0.2);
 }
+
+/* --- HAKKIMIZDA MODALI TASARIMI --- */
+.about-card {
+    max-width: 500px;
+    max-height: 85vh; /* Ekrana sığmazsa kaydırma çubuğu çıkarır */
+    overflow-y: auto; 
+    padding: 35px 25px;
+    text-align: center;
+}
+
+.about-slogan {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: var(--accent-color);
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.about-logo {
+    width: 120px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+    filter: drop-shadow(0 4px 10px rgba(0,0,0,0.2));
+}
+[data-theme="dark"] .about-logo { filter: drop-shadow(0 4px 10px rgba(0,0,0,0.6)); }
+
+.about-bios {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.bio-col { flex: 1; }
+
+.bio-title {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--accent-color);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.bio-title span {
+    font-size: 1.1rem;
+    color: var(--text-main);
+    font-weight: 700;
+}
+
+.bio-text, .history-text {
+    font-size: 0.85rem;
+    line-height: 1.6;
+    color: var(--text-main);
+    text-align: justify;
+}
+
+.history-title {
+    font-size: 1.2rem;
+    color: var(--accent-color);
+    border-bottom: 1px solid var(--accent-color);
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.about-history { margin-bottom: 25px; }
+
+.about-contact {
+    background: rgba(30, 132, 73, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+}
+.contact-title {
+    color: var(--text-main);
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+}
+.about-contact a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    display: block;
+    margin: 5px 0;
+}
+
+/* Telefonlar için (Genişlik 480px altı) Usta ve İşletmeci alt alta insin */
+@media (max-width: 480px) {
+    .about-bios { flex-direction: column; }
+}
