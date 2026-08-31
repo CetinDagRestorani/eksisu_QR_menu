@@ -11,7 +11,7 @@
             { "name": "Haşlanmış Yumurta", "description": "Tam kıvamında haşlanmış, güne tok tutarak başlatacak besin deposu seçeneğimiz.", "price": "20₺", "image": "" },
             { "name": "Sade Pişi", "description": "Tatlı kahvaltı içerikleriyle afiyetle yiyeceğiniz sade pişi", "price": "50₺", "image": "" },
             { "name": "Kaşarlı Pişi", "description": "Kendine has lezzeti olan kaşarlı pişi", "price": "70₺", "image": "" },
-            { "name": "Bal", "description": "", "price": "50₺", "image": "" },
+            { "name": "Bal", "description": "Yöresel çiçeklerden derlenmiş, kahvaltınıza doğal tat katacak süzme bal.", "price": "50₺", "image": "" },
             { "name": "Peynir Tabağı", "description": "Yöresel ve klasik peynir çeşitlerinden oluşan, kahvaltınızı zenginleştirecek özel seçki.", "price": "80₺", "image": "" },
             { "name": "Sucuk Tabağı", "description": "Tavada hafif yağda dağ sucuğundan hazırlanmış sucuk tabağı dilimlenmiş şekilde tavada servis edilir", "price": "150₺", "image": "" },
             { "name": "Domates Salatalık Tabağı", "description": "Mevsimin en taze domates ve salatalıklarıyla hazırlanan ferahlatıcı kahvaltılık söğüş.", "price": "50₺", "image": "" },
