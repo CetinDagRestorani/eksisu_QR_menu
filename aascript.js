@@ -159,6 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalItemCategory = document.getElementById('modal-item-category');
     const modalItemPrice = document.getElementById('modal-item-price');
     const modalItemDescription = document.getElementById('modal-item-description');
+    const modalItemVideo = document.getElementById('modal-item-video');
     const modalCloseIcon = itemModal.querySelector('.modal-close-icon');
     const modalCloseBtn = document.getElementById('modal-close-btn');
 
@@ -172,6 +173,16 @@ document.addEventListener('DOMContentLoaded', () => {
         modalItemDescription.textContent = itemData.description;
         itemModal.style.display = 'flex';
         setTimeout(() => itemModal.classList.add('show'), 10);
+
+        if (itemData.video && itemData.video.trim() !== '') {
+            modalItemVideo.href = itemData.video;
+            modalItemVideo.style.display = 'inline-flex';
+        } else {
+            modalItemVideo.style.display = 'none';
+            modalItemVideo.href = '#';
+        }
+        
+        itemModal.style.display = 'flex';
         
         // UX: Sayfa ana içeriğini de bulanıklaştırabiliriz, ama overlay blur yeterli.
         // Ama örnekteki gibi sert bulanıklık için overlay backdrop-filter yeterli.
@@ -260,6 +271,7 @@ document.addEventListener('DOMContentLoaded', () => {
                              data-item-price="${item.price}"
                              data-item-description="${item.description || ''}"
                              data-item-image="${item.image || ''}"
+                             data-item-video="${item.video || ''}"
                              data-item-title="${item.name}">
                             ${item.image ? `<img src="${item.image}" alt="${item.name}" class="menu-card-img">` : ''}
                             <div class="menu-card-info">
@@ -325,7 +337,8 @@ document.addEventListener('DOMContentLoaded', () => {
             category: card.getAttribute('data-item-category'),
             price: card.getAttribute('data-item-price'),
             description: card.getAttribute('data-item-description'),
-            image: card.getAttribute('data-item-image')
+            image: card.getAttribute('data-item-image'),
+            video: card.getAttribute('data-item-video') // YENİ EKLENEN
         };
         // openItemModal zaten yukarıda tanımlı
         openItemModal(itemData);
