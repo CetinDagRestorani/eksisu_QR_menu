@@ -694,3 +694,26 @@ h1, h2, h3, .menu-card-title, .brand-title {
 @media (max-width: 480px) {
     .about-bios { flex-direction: column; }
 }
+
+/* --- YENİ: VİDEO LİNKİ TASARIMI --- */
+.modal-video-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    transition: color 0.3s, transform 0.2s;
+}
+.modal-video-link:hover {
+    color: #0a4f50; /* Biraz daha koyu yeşil */
+    transform: scale(1.05);
+}
+.modal-video-link i {
+    font-size: 1.3rem;
+}
