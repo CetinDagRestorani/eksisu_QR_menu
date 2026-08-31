@@ -2,20 +2,20 @@
     {
         "category": "Kahvaltılar",
         "items": [
-            { "name": "Serpme Kahvaltı", "description": "Fiyatlandırma ve porsiyonlar Kişi sayısına bağlı olarak artar. En az 2 kişilik sipariş verilebilir. İçeriğinde sıcak olarak melemen, sahanda yumurta, patates kızartması, sade pişi ; Soğuk olarak ise Söğüş salatalık ve domates , 3 çeşit peynir, 2 çeşit zeytin , 3 adet tatlı kahvaltılık ve yağ bulunmaktadır ", "price": "450₺", "image": "kahvalti.jpeg" },
+            { "name": "Serpme Kahvaltı(Kişi Başı)", "description": "Fiyatlandırma ve porsiyonlar Kişi sayısına bağlı olarak artar. En az 2 kişilik sipariş verilebilir. İçeriğinde sıcak olarak melemen, sahanda yumurta, patates kızartması, sade pişi ; Soğuk olarak ise Söğüş salatalık ve domates , 3 çeşit peynir, 2 çeşit zeytin , 3 adet tatlı kahvaltılık ve yağ bulunmaktadır ", "price": "450₺", "image": "kahvalti.jpeg" },
             { "name": "Kahvaltı Tabağı", "description": "Tek kişilik kahvaltılar için tercih edilen seçenektir. Melemen haricinde içeriği serpme kahvaltı ile aynıdır.", "price": "450₺", "image": "" },
             { "name": "Melemen", "description": "Özenle hazırlanmış yumurtalı ve soğansız melemen.", "price": "150₺", "image": "" },
             { "name": "Kuymak", "description": "Karadeniz kültüründen esinlenilmiş el lezzetli kuymak. ", "price": "250₺", "image": "kuymak.jpeg" },
-            { "name": "Sahanda Yumurta", "description": "", "price": "---₺", "image": "" },
-            { "name": "Kaşarlı Yumurta", "description": "", "price": "---₺", "image": "" },
-            { "name": "Haşlanmış Yumurta", "description": "", "price": "---₺", "image": "" },
+            { "name": "Sahanda Yumurta", "description": "Tereyağında tam kıvamında pişirilmiş, güne enerjik başlamanızı sağlayacak klasik lezzet.", "price": "150₺", "image": "" },
+            { "name": "Kaşarlı Yumurta", "description": "Eriyen kaşar peynirinin yumurtayla buluştuğu, kahvaltıların vazgeçilmez sıcak lezzeti.", "price": "---₺", "image": "" },
+            { "name": "Haşlanmış Yumurta", "description": "Tam kıvamında haşlanmış, güne tok tutarak başlatacak besin deposu seçeneğimiz.", "price": "20₺", "image": "" },
             { "name": "Sade Pişi", "description": "Tatlı kahvaltı içerikleriyle afiyetle yiyeceğiniz sade pişi", "price": "50₺", "image": "" },
             { "name": "Kaşarlı Pişi", "description": "Kendine has lezzeti olan kaşarlı pişi", "price": "70₺", "image": "" },
             { "name": "Bal", "description": "", "price": "50₺", "image": "" },
-            { "name": "Peynir Tabağı", "description": "", "price": "80₺", "image": "" },
+            { "name": "Peynir Tabağı", "description": "Yöresel ve klasik peynir çeşitlerinden oluşan, kahvaltınızı zenginleştirecek özel seçki.", "price": "80₺", "image": "" },
             { "name": "Sucuk Tabağı", "description": "Tavada hafif yağda dağ sucuğundan hazırlanmış sucuk tabağı dilimlenmiş şekilde tavada servis edilir", "price": "150₺", "image": "" },
-            { "name": "Domates Salatalık Tabağı", "description": "", "price": "50₺", "image": "" },
-            { "name": "Patates Cipsi", "description": "", "price": "150₺", "image": "" }
+            { "name": "Domates Salatalık Tabağı", "description": "Mevsimin en taze domates ve salatalıklarıyla hazırlanan ferahlatıcı kahvaltılık söğüş.", "price": "50₺", "image": "" },
+            { "name": "Patates Cipsi", "description": "İnce dilimlenmiş, çıtır çıtır kızarmış taze patates kızartması.", "price": "150₺", "image": "" }
         ]
     },
     {
@@ -30,10 +30,10 @@
             { "name": "Meşhur Saklıbahçe Köftesi", "description": "Menü içeriği : Saklıbahçenin en çok satan ürünüdür.El emeği göz nuru,gramajı yüksek , lezzetli efsanedir.5 parça olarak servis edilir.Ortalama 250 gram olarak sunulur. İlk salata , ezme ve yoğurt ikramdır.", "price": "500₺", "image": "kofte.jpeg" },
             { "name": "Erzincan Meşhur Tavuğu Talex Izgara", "description": "Menü içeriği: 3 parça talex ile servis edilir. Saklıbahçenin kendine özel sosu ile marine edilmiştir. Yaklaşık 450 gram olarak sunulur. İlk salata, ezme ve yoğurt ikramdır.", "price": "500₺", "image": "tavuk.jpeg" },
             { "name": "Saklıbahçe Kanat Izgara", "description": "Menü içeriği: Yaprak kanat kullanılmaktadır. Sosu kendine hastır. 8 parça olarak servis edilir. Yaklaşık 300 gramdır. Pişme süresi 40 dakikadır. İlk salata, ezme ve yoğurt ikramdır.", "price": "550₺", "image": "" },
-            { "name": "Sucuk Izgara", "description": "", "price": "500₺", "image": "sucuk.jpeg" },
-            { "name": "Köfte - Et Karışık Izgara", "description": "", "price": "750₺", "image": "" },
-            { "name": "Tavuk - Et Karışık Izgara", "description": "", "price": "750₺", "image": "" },
-            { "name": "Tavuk - Köfte Karışık Izgara", "description": "", "price": "600₺", "image": "" }
+            { "name": "Sucuk Izgara", "description": "Özel baharatlarla harmanlanmış sucuğun ızgara ateşiyle buluştuğu iştah açıcı lezzet.", "price": "500₺", "image": "sucuk.jpeg" },
+            { "name": "Köfte - Et Karışık Izgara", "description": "Hem köfte hem de kırmızı etten vazgeçemeyenler için özenle hazırlanan doyurucu tabak. İlk salata, ezme ve yoğurt ikramdır.", "price": "750₺", "image": "" },
+            { "name": "Tavuk - Et Karışık Izgara", "description": "Beyaz ve kırmızı etin muhteşem uyumu. Özel marinasyonla ızgarada pişirilerek sunulur. İlk salata, ezme ve yoğurt ikramdır.", "price": "750₺", "image": "" },
+            { "name": "Tavuk - Köfte Karışık Izgara", "description": "Meşhur Saklıbahçe köftemiz ve özel soslu tavuğumuzun bir arada sunulduğu lezzet şöleni. İlk salata, ezme ve yoğurt ikramdır.", "price": "600₺", "image": "" }
         ]
     },
     {
@@ -47,11 +47,11 @@
         "category": "Balıklar & Pideler",
         "items": [
             { "name": "Alabalık", "description": "Menü içeriği: Fileto edilmiş, kılçığı alınmış şekilde tereyağında pişirilir. Yaklaşık 250 gramdır. İlk salata, ezme ve yoğurt ikramdır.", "price": "500₺", "image": "alabalik.jpeg" },
-            { "name": "Güveçte Alabalık", "description": "", "price": "650₺", "image": "" },
-            { "name": "Somon Şiş", "description": "", "price": "400₺", "image": "somon.jpeg" },
-            { "name": "Hamsi", "description": "", "price": "400₺", "image": "hamsi.jpeg" },
-            { "name": "Barbun", "description": "", "price": "400₺", "image": "barbun.jpeg" },
-            { "name": "Saklı Pide", "description": "", "price": "350₺", "image": "" }
+            { "name": "Güveçte Alabalık", "description": "Tereyağı ve özel garnitürler eşliğinde toprak güveçte ağır ağır pişen, suyuyla bütünleşmiş enfes alabalık lezzeti.", "price": "650₺", "image": "" },
+            { "name": "Somon Şiş", "description": "Taze somon balığının şişte ızgara ateşiyle buluştuğu, vitamin deposu hafif ve sağlıklı deniz ürünü seçeneğimiz.", "price": "400₺", "image": "somon.jpeg" },
+            { "name": "Hamsi", "description": "Mevsiminde taptaze yakalanmış, mısır ununa bulanıp kızartılmış Karadeniz hamsisi.", "price": "400₺", "image": "hamsi.jpeg" },
+            { "name": "Barbun", "description": "Kendine has lezzetiyle denizlerin incisi barbun, özenle temizlenip çıtır çıtır kızartılarak servis edilir.", "price": "400₺", "image": "barbun.jpeg" },
+            { "name": "Saklı Pide", "description": "İncecik hamuru ve bol kaşarlı malzemesiyle, taş fırında odun ateşinde pişen restoranımıza özel enfes pide çeşidimiz.", "price": "350₺", "image": "" }
         ]
     },
     {
@@ -59,16 +59,16 @@
         "items": [
             { "name": "Çorba", "description": "Taze olarak günlük şef eli değerek hazırlanır. Günün çorbası garsonlara sorularak öğrenilebilir.", "price": "150₺", "image": "" },
             { "name": "Kaşarlı Mantar", "description": "Dağ Mantarı temizlenerek üzerinde kaşar peyniri ile fırında pişirilip servis edilir.", "price": "350₺", "image": "" },
-            { "name": "Barbunya Pilaki", "description": "", "price": "150₺", "image": "" },
+            { "name": "Barbunya Pilaki", "description": "Zeytinyağı, havuç ve soğanla harmanlanmış klasik zeytinyağlı meze.", "price": "150₺", "image": "" },
             { "name": "Tulum Peyniri Tereyağı", "description": "Erzincanımızın meşhur tulum peyniri tabakta servis edilir.", "price": "100₺", "image": "" },
-            { "name": "Cacık", "description": "", "price": "150₺", "image": "" },
-            { "name": "Çoban Salata Büyük", "description": "", "price": "150₺", "image": "" },
-            { "name": "Çoban Salata Küçük", "description": "", "price": "80₺", "image": "" },
-            { "name": "Izgara Domates Biber", "description": "", "price": "150₺", "image": "" },
-            { "name": "Acılı Ezme", "description": "", "price": "50₺", "image": "" },
-            { "name": "Çiğ Köfte", "description": "", "price": "50₺", "image": "" },
-            { "name": "Yoğurt", "description": "", "price": "50₺", "image": "" },
-            { "name": "Somaklı Soğan Salatası", "description": "", "price": "İkram", "image": "" }
+            { "name": "Cacık", "description": "Yoğurt, taze salatalık ve nane ile hazırlanan, et yemeklerinin yanına çok yakışan ferahlatıcı lezzet.", "price": "150₺", "image": "" },
+            { "name": "Çoban Salata Büyük", "description": "Mevsim yeşillikleri, domates ve soğanın zeytinyağı ile harmanlandığı, masayı paylaşanlar için büyük boy taze salata.", "price": "150₺", "image": "" },
+            { "name": "Çoban Salata Küçük", "description": "Ana yemeklerinize eşlik edecek, günlük doğranmış sebzelerden hazırlanan klasik salata.", "price": "80₺", "image": "" },
+            { "name": "Izgara Domates Biber", "description": "Izgara ateşinde közlenerek tatlandırılmış, et yemeklerinin geleneksel tamamlayıcısı.", "price": "150₺", "image": "" },
+            { "name": "Acılı Ezme", "description": "Taze domates, biber ve özel baharatların incecik kıyılmasıyla hazırlanan damak çatlatan başlangıç.", "price": "50₺", "image": "" },
+            { "name": "Çiğ Köfte", "description": "Geleneksel yöntemlerle yoğrulmuş, acısı tam kıvamında ve bol yeşillikle sunulan meze.", "price": "50₺", "image": "" },
+            { "name": "Yoğurt", "description": "Yemeklerinizi hafifletecek tam kıvamında yoğurt.", "price": "50₺", "image": "" },
+            { "name": "Somaklı Soğan Salatası", "description": "İnce doğranmış soğanın sumak ve maydanozla tatlandırıldığı, ızgaraların ayrılmaz eşlikçisi.", "price": "İkram", "image": "" }
         ]
     },
     {
@@ -77,7 +77,7 @@
             { "name": "Antep Katmeri", "description": "Antepten özel olarak getirilmiştir. Sıcak servis edilir. Dondurma ile yenmesi tavsiye edilir.", "price": "300₺", "image": "katmer.jpeg" },
             { "name": "Hamsiköy Sütlacı", "description": "Fındıkla servis edilir. Katkı maddesi bulunmamaktadır. İçerisinde sadece tuz, süt ve şeker vardır. Tavsiye edilir.", "price": "200₺", "image": "" },
             { "name": "Erzincan Kesme Kadayıfı", "description": "Meşhur Erzincan kesme kadayıfı üzerinde fındık veya cevizle servis edilir. Dondurma ile yenilmesi şefin tavsiyesidir.", "price": "200₺", "image": "" },
-            { "name": "Kabak Tatlısı", "description": "", "price": "200₺", "image": "" },
+            { "name": "Kabak Tatlısı", "description": "Tam kıvamında şerbetle pişmiş bal kabağının, bol ceviz ve tahinle taçlandırıldığı enfes yöresel tatlı.", "price": "200₺", "image": "" },
             { "name": "Meşhur Fındıklı Ev Baklavası", "description": "3 dilim şeklinde servis edilir. Katkı maddesi kullanılmayıp, anne eli değmiştir. Günlük, taze olarak satılmaktadır.", "price": "200₺", "image": "" },
             { "name": "Kesme Maraş Dondurması", "description": "Orijinal kesme maraş dondurmasıdır. 2 parça şeklinde servis edilir.", "price": "150₺", "image": "" }
         ]
@@ -85,41 +85,41 @@
     {
         "category": "Soğuk İçecekler",
         "items": [
-            { "name": "Kola", "description": "", "price": "90₺", "image": "" },
-            { "name": "Fanta", "description": "", "price": "90₺", "image": "" },
-            { "name": "Ice Tea", "description": "", "price": "90₺", "image": "" },
-            { "name": "Meyve Suyu", "description": "", "price": "90₺", "image": "" },
-            { "name": "Gazoz", "description": "", "price": "90₺", "image": "" },
-            { "name": "Şalgam Suyu", "description": "", "price": "90₺", "image": "" },
-            { "name": "Ayran", "description": "", "price": "60₺", "image": "" },
-            { "name": "Şişe Bakraç Ayran", "description": "", "price": "60₺", "image": "" },
-            { "name": "Soda", "description": "", "price": "40₺", "image": "" },
+            { "name": "Kola", "description": "Buz gibi serinletici, klasik asitli içecek.", "price": "90₺", "image": "" },
+            { "name": "Fanta", "description": "Yemeklerin yanında tercih edebileceğiniz, ferahlatıcı portakal aromalı soğuk içecek.", "price": "90₺", "image": "" },
+            { "name": "Ice Tea", "description": "Sıcak havalarda içinizi serinletecek, buz gibi meyve aromalı soğuk çay.", "price": "90₺", "image": "" },
+            { "name": "Meyve Suyu", "description": "Her yaş grubunun severek tükettiği, doğal meyve aromalı ferahlık.", "price": "90₺", "image": "" },
+            { "name": "Gazoz", "description": "Nostaljik lezzetiyle yemeklerinize tat katacak serinletici gazoz.", "price": "90₺", "image": "" },
+            { "name": "Şalgam Suyu", "description": "Özellikle et ve ızgara yemeklerinin yanında tercih edilen, iştah açıcı geleneksel lezzet.", "price": "90₺", "image": "" },
+            { "name": "Ayran", "description": "Bol köpüklü olarak sunulan hazır, soğuk ve besleyici içecek.", "price": "60₺", "image": "" },
+            { "name": "Şişe Bakraç Ayran", "description": "Doğallığı ve yoğun kıvamıyla öne çıkan, şişede sunulan özel ayran.", "price": "60₺", "image": "" },
+            { "name": "Soda", "description": "Yemek sonrası sindirimi rahatlatan, doğal mineralli serinletici maden suyu.", "price": "40₺", "image": "" },
             { "name": "Su", "description": "", "price": "30₺", "image": "" }
         ]
     },
     {
         "category": "Sıcak İçecekler",
         "items": [
-            { "name": "Bardak Çay", "description": "", "price": "50₺", "image": "" },
-            { "name": "Termos Çay", "description": "", "price": "400₺", "image": "" },
-            { "name": "Küçük Demlik", "description": "", "price": "400₺", "image": "" },
-            { "name": "Orta Demlik", "description": "", "price": "500₺", "image": "" },
-            { "name": "Büyük Demlik", "description": "", "price": "600₺", "image": "" },
-            { "name": "Küçük Semaver ", "description": "", "price": "600₺", "image": "" },
-            { "name": "Orta Semaver ", "description": "", "price": "700₺", "image": "" },
-            { "name": "Büyük Semaver ", "description": "", "price": "800₺", "image": "" },
-            { "name": "Türk Kahvesi ", "description": "", "price": "100₺", "image": "" },
-            { "name": "Dibek Kahvesi (250gr Paket)", "description": "", "price": "300₺", "image": "" },
-            { "name": "Dibek Kahvesi (500gr Paket)", "description": "", "price": "500₺", "image": "" },
-            { "name": "Dibek Kahvesi (1000gr Paket)", "description": "", "price": "700₺", "image": "" }
+            { "name": "Bardak Çay", "description": "Taze demlenmiş, yorgunluğunuzu alacak sıcacık çay.", "price": "50₺", "image": "" },
+            { "name": "Termos Çay", "description": "Kalabalık masalar ve uzun sohbetler için sıcaklığını hiç kaybetmeyen çay keyfi.", "price": "400₺", "image": "" },
+            { "name": "Küçük Demlik", "description": "2-3 kişilik masalar için ideal, sıcacık ve taze demlenmiş çay sunumu.", "price": "400₺", "image": "" },
+            { "name": "Orta Demlik", "description": "Aileniz veya arkadaşlarınızla çay keyfini doya doya yaşamak isteyenler için.", "price": "500₺", "image": "" },
+            { "name": "Büyük Demlik", "description": "Geniş aileler ve kalabalık gruplar için tasarlanmış bol bardaklı çay ziyafeti.", "price": "600₺", "image": "" },
+            { "name": "Küçük Semaver ", "description": "Ateşte demlenmiş çayın eşsiz aromasını masanıza getiren semaver keyfi.", "price": "600₺", "image": "" },
+            { "name": "Orta Semaver ", "description": "Açık havanın ve güzel sohbetlerin vazgeçilmezi közde semaver çayı", "price": "700₺", "image": "" },
+            { "name": "Büyük Semaver ", "description": "Kalabalık dost meclisleri için saatlerce sürecek, odun ateşinde semaver çayı", "price": "800₺", "image": "" },
+            { "name": "Türk Kahvesi ", "description": "bol köpüklü hazırlanan geleneksel kahvemiz.", "price": "100₺", "image": "" },
+            { "name": "Dibek Kahvesi (250gr Paket)", "description": "yumuşak içimiyle fark yaratan meşhur dibek kahvemiz (Paket).", "price": "300₺", "image": "" },
+            { "name": "Dibek Kahvesi (500gr Paket)", "description": "Eşsiz aromasını evinize de taşıyabileceğiniz yumuşak içimli dibek kahvesi", "price": "500₺", "image": "" },
+            { "name": "Dibek Kahvesi (1000gr Paket)", "description": "Kahve tutkunları ve sevdiklerine hediye etmek isteyenler için büyük boy özel dibek kahvesi.", "price": "700₺", "image": "" }
         ]
     },
     {
         "category": "Ekstralar",
         "items": [
-            { "name": "Canlı Müzik", "description": "", "price": "150₺", "image": "" },
-            { "name": "Servis Ücreti", "description": "", "price": "120₺", "image": "" },
-            { "name": "Ergan Kolonya", "description": "", "price": "250₺", "image": "" }
+            { "name": "Canlı Müzik(Kişi Başı)", "description": "Yemeğinize eşlik edecek, sevdiklerinizle keyifli ve unutulmaz anlar yaşatacak canlı müzik programımız. Yalnızca haftanın Cuma günleri özel konuklarımız ile düzenlenir.", "price": "150₺", "image": "" },
+            { "name": "Servis Ücreti", "description": "Masanıza sunulan özenli hizmet, ikramlar ve genel restoran servis bedeli.", "price": "120₺", "image": "" },
+            { "name": "Ergan Kolonya", "description": "Erzincan'a özgü ferahlatıcı kokusuyla, yemeğin ardından ellerinizde bırakacağı kalıcı tazelik (Şişe olarak satılır).", "price": "250₺", "image": "" }
         ]
     }
 ]
