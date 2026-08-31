@@ -2,7 +2,7 @@
     {
         "category": "Kahvaltılar",
         "items": [
-            { "name": "Serpme Kahvaltı(Kişi Başı)", "description": "Fiyatlandırma ve porsiyonlar Kişi sayısına bağlı olarak artar. En az 2 kişilik sipariş verilebilir. İçeriğinde sıcak olarak melemen, sahanda yumurta, patates kızartması, sade pişi ; Soğuk olarak ise Söğüş salatalık ve domates , 3 çeşit peynir, 2 çeşit zeytin , 3 adet tatlı kahvaltılık ve yağ bulunmaktadır ", "price": "450₺", "image": "kahvalti.jpeg" },
+            { "name": "Serpme Kahvaltı(Kişi Başı)", "description": "Fiyatlandırma ve porsiyonlar Kişi sayısına bağlı olarak artar. En az 2 kişilik sipariş verilebilir. İçeriğinde sıcak olarak melemen, sahanda yumurta, patates kızartması, sade pişi ; Soğuk olarak ise Söğüş salatalık ve domates , 3 çeşit peynir, 2 çeşit zeytin , 3 adet tatlı kahvaltılık ve yağ bulunmaktadır ", "price": "450₺", "image": "kahvalti.jpeg", "video": "https://www.instagram.com/reel/DXQ97ItjCGj/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==" },
             { "name": "Kahvaltı Tabağı", "description": "Tek kişilik kahvaltılar için tercih edilen seçenektir. Melemen haricinde içeriği serpme kahvaltı ile aynıdır.", "price": "450₺", "image": "" },
             { "name": "Melemen", "description": "Özenle hazırlanmış yumurtalı ve soğansız melemen.", "price": "150₺", "image": "" },
             { "name": "Kuymak", "description": "Karadeniz kültüründen esinlenilmiş el lezzetli kuymak. ", "price": "250₺", "image": "kuymak.jpeg" },
