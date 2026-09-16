@@ -60,7 +60,7 @@
             { "name": "Çorba", "description": "Taze olarak günlük şef eli değerek hazırlanır. Günün çorbası garsonlara sorularak öğrenilebilir.", "price": "150₺", "image": "", "video": "" },
             { "name": "Kaşarlı Mantar", "description": "Dağ Mantarı temizlenerek üzerinde kaşar peyniri ile fırında pişirilip servis edilir.", "price": "350₺", "image": "", "video": "" },
             { "name": "Barbunya Pilaki", "description": "Zeytinyağı, havuç ve soğanla harmanlanmış klasik zeytinyağlı meze.", "price": "150₺", "image": "", "video": "" },
-            { "name": "Tulum Peyniri Tereyağı", "description": "Erzincanımızın meşhur tulum peyniri tabakta servis edilir.", "price": "100₺", "image": "", "video": "" },
+            { "name": "Tulum Peyniri", "description": "Erzincanımızın meşhur tulum peyniri tabakta servis edilir.", "price": "100₺", "image": "", "video": "" },
             { "name": "Cacık", "description": "Yoğurt, taze salatalık ve nane ile hazırlanan, et yemeklerinin yanına çok yakışan ferahlatıcı lezzet.", "price": "150₺", "image": "", "video": "" },
             { "name": "Çoban Salata Büyük", "description": "Mevsim yeşillikleri, domates ve soğanın zeytinyağı ile harmanlandığı, masayı paylaşanlar için büyük boy taze salata.", "price": "150₺", "image": "", "video": "" },
             { "name": "Çoban Salata Küçük", "description": "Ana yemeklerinize eşlik edecek, günlük doğranmış sebzelerden hazırlanan klasik salata.", "price": "80₺", "image": "", "video": "" },
