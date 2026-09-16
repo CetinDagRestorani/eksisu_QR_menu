@@ -8,12 +8,12 @@
             { "name": "Kuymak", "description": "Karadeniz kültüründen esinlenilmiş el lezzetli kuymak. ", "price": "250₺", "image": "kuymak.jpeg", "video": "" },
             { "name": "Sahanda Yumurta", "description": "Tereyağında tam kıvamında pişirilmiş, güne enerjik başlamanızı sağlayacak klasik lezzet.", "price": "150₺", "image": "yumurta.jpg", "video": "" },
             { "name": "Kaşarlı Yumurta", "description": "Eriyen kaşar peynirinin yumurtayla buluştuğu, kahvaltıların vazgeçilmez sıcak lezzeti.", "price": "---₺", "image": "", "video": "" },
-            { "name": "Haşlanmış Yumurta", "description": "Tam kıvamında haşlanmış, güne tok tutarak başlatacak besin deposu seçeneğimiz.", "price": "20₺", "image": "", "video": "" },
+            { "name": "Haşlanmış Yumurta", "description": "Tam kıvamında haşlanmış, güne tok tutarak başlatacak besin deposu seçeneğimiz.", "price": "20₺", "image": "haslanmis_yumurta.jpg", "video": "" },
             { "name": "Sade Pişi", "description": "Tatlı kahvaltı içerikleriyle afiyetle yiyeceğiniz sade pişi", "price": "50₺", "image": "pisi.jpg", "video": "" },
             { "name": "Kaşarlı Pişi", "description": "Kendine has lezzeti olan kaşarlı pişi", "price": "70₺", "image": "pisi.jpg", "video": "" },
             { "name": "Bal", "description": "Yöresel çiçeklerden derlenmiş, kahvaltınıza doğal tat katacak süzme bal.", "price": "50₺", "image": "bal_yag_cukuleta.jpg", "video": "" },
             { "name": "Peynir Tabağı", "description": "Yöresel ve klasik peynir çeşitlerinden oluşan, kahvaltınızı zenginleştirecek özel seçki.", "price": "80₺", "image": "", "video": "" },
-            { "name": "Sucuk Tabağı", "description": "Tavada hafif yağda dağ sucuğundan hazırlanmış sucuk tabağı dilimlenmiş şekilde tavada servis edilir", "price": "150₺", "image": "", "video": "" },
+            { "name": "Sucuk Tabağı", "description": "Tavada hafif yağda dağ sucuğundan hazırlanmış sucuk tabağı dilimlenmiş şekilde tavada servis edilir", "price": "150₺", "image": "kahvalti_sucuk.jpg", "video": "" },
             { "name": "Domates Salatalık Tabağı", "description": "Mevsimin en taze domates ve salatalıklarıyla hazırlanan ferahlatıcı kahvaltılık söğüş.", "price": "50₺", "image": "domates_salatalik.jpg", "video": "" },
             { "name": "Patates Cipsi", "description": "İnce dilimlenmiş, çıtır çıtır kızarmış taze patates kızartması.", "price": "150₺", "image": "patates_cips.jpeg", "video": "" }
         ]
@@ -25,11 +25,11 @@
             { "name": "Sucuklu Karışık Izgara", "description": "Menü içeriği : 1 parça tavuk talex,2 parça dağ sucuğu, 2 parça meşhur köfte ve 1 parça et ile servis edilir. İlk salata , ezme ve yoğurt ikramdır.", "price": "700₺", "image": "sucuklu-karisik.jpeg", "video": "" },
             { "name": "Dana Bonfile Izgara", "description": "Menü içeriği: Saklıbahçenin lokumudur. 4 parça şeklinde servis edilir. Yaklaşık 250 gramdır. İlk salata, ezme ve yoğurt ikramdır.", "price": "800₺", "image": "bonfile.jpeg", "video": "" },
             { "name": "Dana Antrikot Izgara", "description": "Menü içeriği: Eti sevenler için güzel bir tercihtir. 4 parça şeklinde servis edilir. Yaklaşık 250 gramdır. İlk salata, ezme ve yoğurt ikramdır.", "price": "800₺", "image": "antrikot.jpeg", "video": "" },
-            { "name": "Kuzu Külbastı Izgara", "description": "Menü içeriği: 4 parça şeklinde servis edilir. Marine edilmiş dövülmüş kuzu etidir. İlk salata, ezme ve yoğurt ikramdır.", "price": "800₺", "image": "", "video": "" },
-            { "name": "Kuzu Pirzola Izgara", "description": "Menü içeriği: 4 parça şeklinde servis edilir. Yaklaşık 200 gramdır. İlk salata, ezme ve yoğurt ikramdır.", "price": "800₺", "image": "", "video": "" },
+            { "name": "Kuzu Külbastı Izgara", "description": "Menü içeriği: 4 parça şeklinde servis edilir. Marine edilmiş dövülmüş kuzu etidir. İlk salata, ezme ve yoğurt ikramdır.", "price": "800₺", "image": "kuzu_kulbasti.jpg", "video": "" },
+            { "name": "Kuzu Pirzola Izgara", "description": "Menü içeriği: 4 parça şeklinde servis edilir. Yaklaşık 200 gramdır. İlk salata, ezme ve yoğurt ikramdır.", "price": "800₺", "image": "kuzu_pirzola.jpg", "video": "" },
             { "name": "Meşhur Saklıbahçe Köftesi", "description": "Menü içeriği : Saklıbahçenin en çok satan ürünüdür.El emeği göz nuru,gramajı yüksek , lezzetli efsanedir.5 parça olarak servis edilir.Ortalama 250 gram olarak sunulur. İlk salata , ezme ve yoğurt ikramdır.", "price": "500₺", "image": "kofte.jpeg", "video": "https://www.instagram.com/reel/DRMoNYbkl8v/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==" },
             { "name": "Erzincan Meşhur Tavuğu Talex Izgara", "description": "Menü içeriği: 3 parça talex ile servis edilir. Saklıbahçenin kendine özel sosu ile marine edilmiştir. Yaklaşık 450 gram olarak sunulur. İlk salata, ezme ve yoğurt ikramdır.", "price": "500₺", "image": "tavuk.jpeg", "video": "" },
-            { "name": "Saklıbahçe Kanat Izgara", "description": "Menü içeriği: Yaprak kanat kullanılmaktadır. Sosu kendine hastır. 8 parça olarak servis edilir. Yaklaşık 300 gramdır. Pişme süresi 40 dakikadır. İlk salata, ezme ve yoğurt ikramdır.", "price": "550₺", "image": "", "video": "" },
+            { "name": "Saklıbahçe Kanat Izgara", "description": "Menü içeriği: Yaprak kanat kullanılmaktadır. Sosu kendine hastır. 8 parça olarak servis edilir. Yaklaşık 300 gramdır. Pişme süresi 40 dakikadır. İlk salata, ezme ve yoğurt ikramdır.", "price": "550₺", "image": "kanat.jpg", "video": "" },
             { "name": "Sucuk Izgara", "description": "Özel baharatlarla harmanlanmış sucuğun ızgara ateşiyle buluştuğu iştah açıcı lezzet.", "price": "500₺", "image": "sucuk.jpeg", "video": "" },
             { "name": "Köfte - Et Karışık Izgara", "description": "Hem köfte hem de kırmızı etten vazgeçemeyenler için özenle hazırlanan doyurucu tabak. İlk salata, ezme ve yoğurt ikramdır.", "price": "750₺", "image": "", "video": "" },
             { "name": "Tavuk - Et Karışık Izgara", "description": "Beyaz ve kırmızı etin muhteşem uyumu. Özel marinasyonla ızgarada pişirilerek sunulur. İlk salata, ezme ve yoğurt ikramdır.", "price": "750₺", "image": "", "video": "" },
@@ -47,21 +47,21 @@
         "category": "Balıklar & Pideler",
         "items": [
             { "name": "Alabalık", "description": "Menü içeriği: Fileto edilmiş, kılçığı alınmış şekilde tereyağında pişirilir. Yaklaşık 250 gramdır. İlk salata, ezme ve yoğurt ikramdır.", "price": "500₺", "image": "alabalik.jpeg", "video": "" },
-            { "name": "Güveçte Alabalık", "description": "Tereyağı ve özel garnitürler eşliğinde toprak güveçte ağır ağır pişen, suyuyla bütünleşmiş enfes alabalık lezzeti.", "price": "650₺", "image": "", "video": "https://www.instagram.com/reel/DWbHicijN-V/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==" },
+            { "name": "Güveçte Alabalık", "description": "Tereyağı ve özel garnitürler eşliğinde toprak güveçte ağır ağır pişen, suyuyla bütünleşmiş enfes alabalık lezzeti.", "price": "650₺", "image": "guvecte_alabalik", "video": "https://www.instagram.com/reel/DWbHicijN-V/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==" },
             { "name": "Somon Şiş", "description": "Taze somon balığının şişte ızgara ateşiyle buluştuğu, vitamin deposu hafif ve sağlıklı deniz ürünü seçeneğimiz.", "price": "400₺", "image": "somon.jpeg", "video": "https://www.instagram.com/reel/DQrUccZjE5p/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==" },
             { "name": "Hamsi", "description": "Mevsiminde taptaze yakalanmış, mısır ununa bulanıp kızartılmış Karadeniz hamsisi.", "price": "400₺", "image": "hamsi.jpeg", "video": "" },
             { "name": "Barbun", "description": "Kendine has lezzetiyle denizlerin incisi barbun, özenle temizlenip çıtır çıtır kızartılarak servis edilir.", "price": "400₺", "image": "barbun.jpeg", "video": "" },
-            { "name": "Saklı Pide", "description": "İncecik hamuru ve bol kaşarlı malzemesiyle, taş fırında odun ateşinde pişen restoranımıza özel enfes pide çeşidimiz.", "price": "350₺", "image": "", "video": "https://www.instagram.com/reel/DWbHicijN-V/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==" }
+            { "name": "Saklı Pide", "description": "İncecik hamuru ve bol kaşarlı malzemesiyle, taş fırında odun ateşinde pişen restoranımıza özel enfes pide çeşidimiz.", "price": "350₺", "image": "sakli_pide.jpg", "video": "https://www.instagram.com/reel/DWbHicijN-V/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==" }
         ]
     },
     {
         "category": "Çorbalar & Mezeler",
         "items": [
             { "name": "Çorba", "description": "Taze olarak günlük şef eli değerek hazırlanır. Günün çorbası garsonlara sorularak öğrenilebilir.", "price": "150₺", "image": "", "video": "" },
-            { "name": "Kaşarlı Mantar", "description": "Dağ Mantarı temizlenerek üzerinde kaşar peyniri ile fırında pişirilip servis edilir.", "price": "350₺", "image": "", "video": "" },
-            { "name": "Barbunya Pilaki", "description": "Zeytinyağı, havuç ve soğanla harmanlanmış klasik zeytinyağlı meze.", "price": "150₺", "image": "", "video": "" },
-            { "name": "Tulum Peyniri", "description": "Erzincanımızın meşhur tulum peyniri tabakta servis edilir.", "price": "100₺", "image": "", "video": "" },
-            { "name": "Cacık", "description": "Yoğurt, taze salatalık ve nane ile hazırlanan, et yemeklerinin yanına çok yakışan ferahlatıcı lezzet.", "price": "150₺", "image": "", "video": "" },
+            { "name": "Kaşarlı Mantar", "description": "Dağ Mantarı temizlenerek üzerinde kaşar peyniri ile fırında pişirilip servis edilir.", "price": "350₺", "image": "kasarli_mantar.jpeg", "video": "" },
+            { "name": "Barbunya Pilaki", "description": "Zeytinyağı, havuç ve soğanla harmanlanmış klasik zeytinyağlı meze.", "price": "150₺", "image": "plaki.jpg", "video": "" },
+            { "name": "Tulum Peyniri", "description": "Erzincanımızın meşhur tulum peyniri tabakta servis edilir.", "price": "100₺", "image": "tulum.jpg", "video": "" },
+            { "name": "Cacık", "description": "Yoğurt, taze salatalık ve nane ile hazırlanan, et yemeklerinin yanına çok yakışan ferahlatıcı lezzet.", "price": "150₺", "image": "cacik.jpg", "video": "" },
             { "name": "Çoban Salata Büyük", "description": "Mevsim yeşillikleri, domates ve soğanın zeytinyağı ile harmanlandığı, masayı paylaşanlar için büyük boy taze salata.", "price": "150₺", "image": "", "video": "" },
             { "name": "Çoban Salata Küçük", "description": "Ana yemeklerinize eşlik edecek, günlük doğranmış sebzelerden hazırlanan klasik salata.", "price": "80₺", "image": "", "video": "" },
             { "name": "Izgara Domates Biber", "description": "Izgara ateşinde közlenerek tatlandırılmış, et yemeklerinin geleneksel tamamlayıcısı.", "price": "150₺", "image": "", "video": "" },
