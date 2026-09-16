@@ -4,18 +4,18 @@
         "items": [
             { "name": "Serpme Kahvaltı", "description": "(Kişi Başı porsiyonlandırma) Fiyatlandırma ve porsiyonlar Kişi sayısına bağlı olarak artar. En az 2 kişilik sipariş verilebilir. İçeriğinde sıcak olarak melemen, sahanda yumurta, patates kızartması, sade pişi ; Soğuk olarak ise Söğüş salatalık ve domates , 3 çeşit peynir, 2 çeşit zeytin , 3 adet tatlı kahvaltılık ve yağ bulunmaktadır ", "price": "450₺", "image": "kahvalti.jpeg", "video": "https://www.instagram.com/reel/DXQ97ItjCGj/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==" },
             { "name": "Kahvaltı Tabağı", "description": "Tek kişilik kahvaltılar için tercih edilen seçenektir. Melemen haricinde içeriği serpme kahvaltı ile aynıdır.", "price": "450₺", "image": "", "video": ""},
-            { "name": "Melemen", "description": "Özenle hazırlanmış yumurtalı ve soğansız melemen.", "price": "150₺", "image": "", "video": "" },
+            { "name": "Melemen", "description": "Özenle hazırlanmış yumurtalı ve soğansız melemen.", "price": "150₺", "image": "melemen.jpg", "video": "" },
             { "name": "Kuymak", "description": "Karadeniz kültüründen esinlenilmiş el lezzetli kuymak. ", "price": "250₺", "image": "kuymak.jpeg", "video": "" },
-            { "name": "Sahanda Yumurta", "description": "Tereyağında tam kıvamında pişirilmiş, güne enerjik başlamanızı sağlayacak klasik lezzet.", "price": "150₺", "image": "", "video": "" },
+            { "name": "Sahanda Yumurta", "description": "Tereyağında tam kıvamında pişirilmiş, güne enerjik başlamanızı sağlayacak klasik lezzet.", "price": "150₺", "image": "yumurta.jpg", "video": "" },
             { "name": "Kaşarlı Yumurta", "description": "Eriyen kaşar peynirinin yumurtayla buluştuğu, kahvaltıların vazgeçilmez sıcak lezzeti.", "price": "---₺", "image": "", "video": "" },
             { "name": "Haşlanmış Yumurta", "description": "Tam kıvamında haşlanmış, güne tok tutarak başlatacak besin deposu seçeneğimiz.", "price": "20₺", "image": "", "video": "" },
-            { "name": "Sade Pişi", "description": "Tatlı kahvaltı içerikleriyle afiyetle yiyeceğiniz sade pişi", "price": "50₺", "image": "", "video": "" },
-            { "name": "Kaşarlı Pişi", "description": "Kendine has lezzeti olan kaşarlı pişi", "price": "70₺", "image": "", "video": "" },
-            { "name": "Bal", "description": "Yöresel çiçeklerden derlenmiş, kahvaltınıza doğal tat katacak süzme bal.", "price": "50₺", "image": "", "video": "" },
+            { "name": "Sade Pişi", "description": "Tatlı kahvaltı içerikleriyle afiyetle yiyeceğiniz sade pişi", "price": "50₺", "image": "pisi.jpg", "video": "" },
+            { "name": "Kaşarlı Pişi", "description": "Kendine has lezzeti olan kaşarlı pişi", "price": "70₺", "image": "pisi.jpg", "video": "" },
+            { "name": "Bal", "description": "Yöresel çiçeklerden derlenmiş, kahvaltınıza doğal tat katacak süzme bal.", "price": "50₺", "image": "bal_yag_cukuleta.jpg", "video": "" },
             { "name": "Peynir Tabağı", "description": "Yöresel ve klasik peynir çeşitlerinden oluşan, kahvaltınızı zenginleştirecek özel seçki.", "price": "80₺", "image": "", "video": "" },
             { "name": "Sucuk Tabağı", "description": "Tavada hafif yağda dağ sucuğundan hazırlanmış sucuk tabağı dilimlenmiş şekilde tavada servis edilir", "price": "150₺", "image": "", "video": "" },
-            { "name": "Domates Salatalık Tabağı", "description": "Mevsimin en taze domates ve salatalıklarıyla hazırlanan ferahlatıcı kahvaltılık söğüş.", "price": "50₺", "image": "", "video": "" },
-            { "name": "Patates Cipsi", "description": "İnce dilimlenmiş, çıtır çıtır kızarmış taze patates kızartması.", "price": "150₺", "image": "", "video": "" }
+            { "name": "Domates Salatalık Tabağı", "description": "Mevsimin en taze domates ve salatalıklarıyla hazırlanan ferahlatıcı kahvaltılık söğüş.", "price": "50₺", "image": "domates_salatalik.jpg", "video": "" },
+            { "name": "Patates Cipsi", "description": "İnce dilimlenmiş, çıtır çıtır kızarmış taze patates kızartması.", "price": "150₺", "image": "patates_cips.jpeg", "video": "" }
         ]
     },
     {
