@@ -108,7 +108,7 @@
             { "name": "Küçük Semaver ", "description": "Ateşte demlenmiş çayın eşsiz aromasını masanıza getiren semaver keyfi.", "price": "600₺", "image": "", "video": "https://www.instagram.com/p/CBBX52EFSah/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==" },
             { "name": "Orta Semaver ", "description": "Açık havanın ve güzel sohbetlerin vazgeçilmezi közde semaver çayı", "price": "700₺", "image": "", "video": "https://www.instagram.com/p/CBBX52EFSah/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==" },
             { "name": "Büyük Semaver ", "description": "Kalabalık dost meclisleri için saatlerce sürecek, odun ateşinde semaver çayı", "price": "800₺", "image": "", "video": "https://www.instagram.com/p/CBBX52EFSah/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==" },
-            { "name": "Türk Kahvesi ", "description": "bol köpüklü hazırlanan geleneksel kahvemiz.", "price": "100₺", "image": "", "video": "" },
+            { "name": "Türk Kahvesi ", "description": "bol köpüklü hazırlanan geleneksel kahvemiz.", "price": "100₺", "image": "kahve.jpg", "video": "" },
             { "name": "Dibek Kahvesi (250gr Paket)", "description": "yumuşak içimiyle fark yaratan meşhur dibek kahvemiz (Paket).", "price": "300₺", "image": "", "video": "" },
             { "name": "Dibek Kahvesi (500gr Paket)", "description": "Eşsiz aromasını evinize de taşıyabileceğiniz yumuşak içimli dibek kahvesi", "price": "500₺", "image": "", "video": "" },
             { "name": "Dibek Kahvesi (1000gr Paket)", "description": "Kahve tutkunları ve sevdiklerine hediye etmek isteyenler için büyük boy özel dibek kahvesi.", "price": "700₺", "image": "", "video": "" }
